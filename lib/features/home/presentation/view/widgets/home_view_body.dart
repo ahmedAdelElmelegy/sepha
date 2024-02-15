@@ -52,7 +52,7 @@ class HomeViewBody extends StatelessWidget {
           text: '${sephaCubit.countX[sephaCubit.groupValue!]}',
           color: sephaCubit.color ?? Colors.red,
           fontWeight: FontWeight.bold,
-          fontSize: RespText.getResponsiveFontSize(context, 20),
+          fontSize: RespText.getResponsiveFontSize(context, 30),
         ),
         const CustomSizeBox(
           h: .02,
@@ -74,7 +74,7 @@ class HomeViewBody extends StatelessWidget {
           text: '${sephaCubit.collectC[sephaCubit.groupValue!]}: المجموع ',
           color: sephaCubit.color ?? Colors.red,
           fontWeight: FontWeight.bold,
-          fontSize: RespText.getResponsiveFontSize(context, 20),
+          fontSize: RespText.getResponsiveFontSize(context, 30),
         ),
         const Spacer(),
         CustomColorChanger(sephaCubit: sephaCubit)

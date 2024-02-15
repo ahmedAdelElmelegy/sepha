@@ -18,7 +18,7 @@ class CustomDrawer extends StatelessWidget {
           child: Column(
             children: [
               const CircleAvatar(
-                radius: 50,
+                radius: 30,
                 backgroundImage:
                     AssetImage('assets/image/allah-vector-23930389.jpg'),
               ),
@@ -35,7 +35,7 @@ class CustomDrawer extends StatelessWidget {
           text: '${sephaCubit.collectC[0]}  :استغفر الله العظيم',
           color: Colors.red,
           fontWeight: FontWeight.bold,
-          fontSize: RespText.getResponsiveFontSize(context, 23),
+          fontSize: RespText.getResponsiveFontSize(context, 20),
         ),
         const CustomSizeBox(
           h: .05,
@@ -44,7 +44,7 @@ class CustomDrawer extends StatelessWidget {
           text: '${sephaCubit.collectC[1]}  :سبحان الله والحمد لله',
           color: Colors.grey,
           fontWeight: FontWeight.bold,
-          fontSize: RespText.getResponsiveFontSize(context, 23),
+          fontSize: RespText.getResponsiveFontSize(context, 20),
         ),
         const CustomSizeBox(
           h: .05,
@@ -53,7 +53,7 @@ class CustomDrawer extends StatelessWidget {
           text: '${sephaCubit.collectC[2]}  :صلي علي رسول الله',
           fontWeight: FontWeight.bold,
           color: Colors.orange,
-          fontSize: RespText.getResponsiveFontSize(context, 23),
+          fontSize: RespText.getResponsiveFontSize(context, 20),
         ),
         const CustomSizeBox(
           h: .05,
@@ -62,7 +62,7 @@ class CustomDrawer extends StatelessWidget {
           text: '${sephaCubit.collectC[3]}  :لا اله الا الله محمد رسول الله ',
           fontWeight: FontWeight.bold,
           color: Colors.blue,
-          fontSize: RespText.getResponsiveFontSize(context, 23),
+          fontSize: RespText.getResponsiveFontSize(context, 20),
         ),
       ],
     ));
